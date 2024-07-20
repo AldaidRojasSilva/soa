@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.width_form{
+    width: 550px;
+}
+.div_inputs {
+    margin-top: 8px;
+}
+.div_inputs label{
+    display: block;
+}
+.div_inputs input{
+    width: 100%;
+}
+
+@media (max-width: 750px){
+    #img_viva{
+        display: block;
+    }
+}
+@media (max-width: 500px){
+    body{
+     min-width: 500px;
+    }
+}
